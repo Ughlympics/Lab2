@@ -1,0 +1,22 @@
+﻿  lab21test.cpp
+F:\VSprojects\lab21test\lab21test.cpp(30,54): error C2065: 'precision': undeclared identifier
+  (compiling source file '/lab21test.cpp')
+  
+F:\VSprojects\lab21test\lab21test.cpp(33,54): error C2065: 'precision': undeclared identifier
+  (compiling source file '/lab21test.cpp')
+  
+F:\VSprojects\lab21test\lab21test.cpp(37,54): error C2065: 'precision': undeclared identifier
+  (compiling source file '/lab21test.cpp')
+  
+F:\VSprojects\lab21test\lab21test.cpp(39,4): error C2146: syntax error: missing ';' before identifier 'p2'
+  (compiling source file '/lab21test.cpp')
+  
+F:\VSprojects\lab21test\lab21test.cpp(40,4): error C2146: syntax error: missing ';' before identifier 'result'
+  (compiling source file '/lab21test.cpp')
+  
+F:\VSprojects\lab21test\lab21test.cpp(41,54): error C2065: 'precision': undeclared identifier
+  (compiling source file '/lab21test.cpp')
+  
+F:\VSprojects\lab21test\lab21test.cpp(42,3): error C2143: syntax error: missing ';' before '}'
+  (compiling source file '/lab21test.cpp')
+  

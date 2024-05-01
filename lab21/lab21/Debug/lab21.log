@@ -1,0 +1,8 @@
+﻿  builder.cpp
+  Line.cpp
+  main.cpp
+  point.cpp
+  polyline.cpp
+  triangle.cpp
+  Generating Code...
+  lab21.vcxproj -> F:\VSprojects\Lab2\lab21\Debug\lab21.exe

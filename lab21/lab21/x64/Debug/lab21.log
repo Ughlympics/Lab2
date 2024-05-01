@@ -1,0 +1,6 @@
+﻿  main.cpp
+  point.cpp
+F:\VSprojects\lab21\point.h(24,10): error C3861: 'sqrt': identifier not found
+  (compiling source file 'point.cpp')
+  
+  Generating Code...
