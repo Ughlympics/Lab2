@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	/*try {
+	try {
 		cout << "input x and y" << endl;
 		Point p1 = get_point();
 		print(p1);
@@ -22,7 +22,7 @@ int main()
 	}
 	catch (domain_error e) {
 		cout << e.what() << endl;
-	}*/
+	}
 
 	//cout << endl << endl;
 

@@ -40,22 +40,19 @@ class Builder {
 public:
     
     static Polyline* createObject(const std::vector<Point>& points) {
-        if (points.size() ==2) {
+        if (points.size() <= 1) {
+            throw std::invalid_argument("Invalid number of points: must be at least 2");
+        }
+        else if (points.size() == 2) {
             return new Line(points[0], points[1]);
         }
         else if (points.size() == 3) {
             std::cout << "Building Triangle" << std::endl;
             return new Triangle(points[0], points[1], points[2]);
         }
-        else {
-            std::cerr << "Invalid number of points" << std::endl;
-            return nullptr;
+        else if (points.size() > 3) {
+            std::cout << "Building Polyline" << std::endl;
+            return new Polyline(points);
         }
-    }
-    /*static Line* createLine(const std::vector<Point> points) {
-        return new Line(Point start, Point end);
-    }*/
-    static Line* createLine(const Point& start, const Point& end) {
-        return new Line(start, end);
     }
 };

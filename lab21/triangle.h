@@ -15,9 +15,9 @@ public:
 	Triangle(Point a, Point b, Point c)
 		: Polyline(std::vector<Point> {a, b, c})
 	{
-		/*this->point1 = a;
-		this->point2 = b;
-		this->point3 = c;*/
+		this->point1 = _points[0];
+		this->point2 = _points[1];
+		this->point3 = _points[2];
 	}
 
 	void printtriangle() const
@@ -37,6 +37,9 @@ public:
 
 	void chozer() override {
 		std::cout << "Triangle" << std::endl;
+	}
+	Point getPoint2() {
+		return point2;
 	}
 
 };

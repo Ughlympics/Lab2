@@ -1,3 +1,4 @@
 ﻿  lab21test.cpp
+F:\VSprojects\Lab2\lab21\builder.h(57,1): warning C4715: 'Builder::createObject': not all control paths return a value
      Creating library F:\VSprojects\Lab2\lab21\Debug\lab21test.lib and object F:\VSprojects\Lab2\lab21\Debug\lab21test.exp
   lab21test.vcxproj -> F:\VSprojects\Lab2\lab21\Debug\lab21test.dll

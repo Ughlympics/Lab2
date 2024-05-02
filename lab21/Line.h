@@ -16,7 +16,8 @@ public:
 	Line(Point start, Point end) 
 		:Polyline(std::vector<Point> {start, end})
 	{
-
+		this->start = _points[0];
+		this->end = _points[1];
 	}
 
 	void printline() const
